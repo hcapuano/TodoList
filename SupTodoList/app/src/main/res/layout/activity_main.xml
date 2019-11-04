@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/mainLogin">
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/logo"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/logo"/>
+
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/username"
+            android:inputType="text"
+            android:hint="@string/username"
+            android:layout_marginTop="230dp"
+            android:layout_centerHorizontal="true"
+            android:layout_alignTop="@+id/logo"
+            android:paddingBottom="15dp"
+            android:drawableEnd="@drawable/icon_user"/>
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="300dp"
+            android:layout_height="43dp"
+            android:hint="@string/password"
+            android:inputType="textPassword"
+            android:layout_marginTop="80dp"
+            android:layout_alignTop="@+id/username"
+            android:layout_centerHorizontal="true"
+            android:paddingBottom="15dp"
+            android:drawableEnd="@drawable/icon_lock"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="80dp"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_alignTop="@id/password">
+
+            <Button
+                android:id="@+id/login"
+                android:layout_width="120dp"
+                android:layout_height="50dp"
+                android:onClick="login"
+                android:gravity="center"
+                android:text="@string/login"
+                android:drawableEnd="@drawable/icon_login"/>
+
+            <Button
+                android:id="@+id/register"
+                android:layout_width="120dp"
+                android:layout_height="50dp"
+                android:onClick="goToRegister"
+                android:drawableEnd="@drawable/icon_register"
+                android:text="@string/register" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+</android.support.constraint.ConstraintLayout>

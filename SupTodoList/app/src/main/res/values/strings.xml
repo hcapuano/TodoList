@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">SupTodoList</string>
+    <string name="login">Login</string>
+    <string name="logout">Logout</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="todoLists">My Lists</string>
+    <string name="selectedList">Selected List</string>
+    <string name="add">add</string>
+    <string name="newList">New List</string>
+    <string name="delete">Delete</string>
+    <string name="newElement">New element</string>
+    <string name="register">Register</string>
+    <string name="firstname">Firstname</string>
+    <string name="lastname">Lastname</string>
+    <string name="email">Mail</string>
+    <string name="share">Share</string>
+    <string name="invitedUsername">Invited username</string>
+</resources>

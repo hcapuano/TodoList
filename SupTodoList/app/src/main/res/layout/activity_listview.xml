@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:descendantFocusability="blocksDescendants">
+
+    <TextView
+        android:id="@+id/label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="15dp"
+        android:paddingStart="8dp"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:ignore="RelativeOverlap,RtlSymmetry" />
+
+    <Button
+        android:id="@+id/deleteButton"
+        android:background="@drawable/icon_trash"
+        android:paddingBottom="10dp"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="5dp"
+        tools:ignore="RelativeOverlap"
+        android:clickable="true"/>
+
+</RelativeLayout>
